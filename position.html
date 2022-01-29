@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+  <style>
+    .parent {
+      background-color: greenyellow;
+      height: 100%;
+      position: relative;
+    }
+
+    .child {
+      background-color: pink;
+      top: 50px;
+      right: 50px;
+      position: relative;
+    }
+
+    .child2 {
+      background-color: yellow;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+    }
+
+    .child3 {
+      position: sticky;
+      top: 0px;
+    }
+
+    .child4 {
+      position: fixed;
+      top: 10px;
+    }
+  </style>
+</head>
+
+<body style="height: 2000px;">
+  <h4 style="text-align: center;">Position</h4>
+  <div class="parent"> This the parent
+    <div class="child">
+      Child One
+    </div>
+    <div>
+      Child Two
+    </div>
+    <!-- <div class="child3">
+      Child Three
+    </div>
+
+    <div class="child4">
+      Child Four
+    </div> -->
+
+  </div>
+
+</body>
+
+</html>

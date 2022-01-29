@@ -1,0 +1,53 @@
+
+Topics
+
+  Recap of the Topics( basic html Tags, HTML Forms ( input & attributs ), CSS, CSS selectors (class, id), important )
+
+  VSCode Extensions Installation ( Html snippet by Mohamed , Bracket Pair Colurize corendas )
+
+  1. Box Model
+    From Outer -> margin -> border -> padding -> content
+    Margin, Border, Padding, Shorthand for margin & padding
+    Margin: ( Top, right, bottom, left )
+    padding ( top, right, bottom, left )
+    Border ( border-width, border-style, border-color )
+
+  2. Position ---> 
+    CSS Property which lets us to position a particuler element with the 
+    doucment flow and independent of the document flow with help of top, left, right, bottom
+
+    > static  ---> default position
+      1. does not affect the normal flow of the document
+      2. space is created 
+      3. Also, is not affect by the top, left, right, bottom
+
+    > relative relative to its parent
+      1. Affects the normal flow of the document
+      2. Space created
+      3. Affected by top, left, right, bottom
+
+    > absolute
+      1. Removed from the normal, 
+      2. No Space created
+      3. Affected by top, left, right, bottom
+
+    > fixed
+      1. Removed from the normal flow and placed relative the initial block
+      2. No space created
+      3. Not Affected by scrolling
+
+    > sticky
+      1. Created alogn with normal flow of the document
+      2. SPace created
+      3. is not affected by scrolling
+  
+  3. Flex-Box
+    Direction, Wrap, flex-flow, justify-content, align-content
+
+  4. Parent Inherit
+
+  5. Gradient
+
+  6. Deploy static files in netlify or heroku
+  
+
